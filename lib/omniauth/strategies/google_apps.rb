@@ -15,8 +15,9 @@ module OmniAuth
       end
 
       def identifier
-        options[:domain] || request['domain']
+        request['domain'].blank? ? options[:domain] : request['domain'] 
       end
+      
     end
   end
 end
