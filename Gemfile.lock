@@ -7,7 +7,7 @@ PATH
       ruby-openid-apps-discovery (~> 1.2.0)
 
 GEM
-  remote: http://rubygems.org/
+  remote: https://rubygems.org/
   specs:
     addressable (2.2.6)
     crack (0.3.1)
@@ -86,3 +86,6 @@ DEPENDENCIES
   sinatra
   thin
   webmock
+
+BUNDLED WITH
+   1.15.3
