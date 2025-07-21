@@ -4,9 +4,9 @@ source "http://rubygems.org"
 gemspec
 
 group :development, :test do
-  gem 'guard'
-  gem 'guard-rspec'
-  gem 'guard-bundler'
+  gem 'guard', '>= 1.0.3'
+  gem 'guard-rspec', '>= 0.5.10'
+  gem 'guard-bundler', '>= 1.0.0'
   gem 'rb-fsevent'
   gem 'growl'
 end
