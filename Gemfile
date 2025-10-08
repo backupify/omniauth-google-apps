@@ -12,6 +12,6 @@ group :development, :test do
 end
 
 group :example do
-  gem 'sinatra'
-  gem 'thin'
+  gem 'sinatra', '>= 2.0.0'
+  gem 'thin', '>= 1.4.0'
 end
